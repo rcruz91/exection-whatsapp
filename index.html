@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Widget WhatsApp</title>
+</head>
+<body>
+
+<script>
+  window.WidgetWhatsConfig = {
+    userId: 831231,
+    accountId: 676278,
+    funnelId: 798752,
+    sequenceId: 1,
+    whatsappNumber: "+5511994042731",
+    companyName: "GoPanel",
+    whatsappMessage: "Olá, gostaria de falar com um especialista para integrações com o Agendor",
+    entity: "organization",
+    deal: true,
+    fields: [
+      { name: "name", label: "Nome", type: "text", required: true },
+      { name: "email", label: "E-mail", type: "email", required: true },
+      { name: "whatsapp", label: "WhatsApp", type: "text", required: true },
+      { name: "legalName", label: "Razão social", type: "text", required: true }
+    ]
+  };
+</script>
+
+<script src="https://widgets.agendor.com.br/whatsapp.js" defer></script>
+
+</body>
+</html>
